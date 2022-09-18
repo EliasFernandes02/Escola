@@ -1,9 +1,9 @@
 
 let alunos=[
     ['Samuel','samuel@email.com','85 8888888'],
-    ['Bruno','samuel@email.com','85 8888888'],
-    ['Matheus','samuel@email.com','85 8888888'],
-    ['Marcelo','samuel@email.com','85 8888888'],
+    ['Bruno','bruno@email.com','85 8888888'],
+    ['Matheus','mateus@email.com','85 8888888'],
+    ['Marcelo','marcelo@email.com','85 8888888'],
     ['elias','elias@gmail.com','65 88324788']
 ];
 
