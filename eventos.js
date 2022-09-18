@@ -1,9 +1,9 @@
 
 let alunos=[
-    ['Samuel','samuel@email.com','85 8888888'],
-    ['Bruno','bruno@email.com','85 8888888'],
-    ['Matheus','mateus@email.com','85 8888888'],
-    ['Marcelo','marcelo@email.com','85 8888888'],
+    ['Samuel','samuel@email.com','85 83523523'],
+    ['Bruno','bruno@email.com','85 435834'],
+    ['Matheus','mateus@email.com','85 88882338'],
+    ['Marcelo','marcelo@email.com','85 342523423'],
     ['elias','elias@gmail.com','65 88324788']
 ];
 
@@ -13,10 +13,10 @@ function cadastrarAluno() //função que executará quando cadastrar um aluno, i
     event.preventDefault();
         alunos.push([`${nome.value}`,`${email.value}`,`${telefone.value}`]);
 
-        listar_aluno();
+        listar_aluno(); //chamando listar
 };
 
-function atualizarAlunos()
+function atualizarAlunos() //atualizando tabela alunos
 {
     tabela_alunos.innerHTML = '';
 };
